@@ -1,5 +1,5 @@
 ﻿(function () {
-    var pdfApp = angular.module('pdfApp', ['ngRoute']);
+    var pdfApp = angular.module('pdfApp', ['ngRoute', 'ngFileUpload']);
 
     pdfApp.config(['$routeProvider', function ($routeProvider) {
         

@@ -1,1 +1,9 @@
-﻿<h1>Hello World!</h1>
+﻿<h4>Convert to PDF</h4>
+
+<div>
+    <!--<input type="file" id="fileUpload" ng-fileselect class="makethispretty" />-->
+    <div class="button" ngf-select ng-model="file" ngf-multiple="true">Select</div>
+</div> 
+
+<input type="button" title="Convert JPG to PDF" value="Convert JPG to PDF" class="btn btn-primary" ng-click="uploadFileToUrl()" />
+
